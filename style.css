@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-image:linear-gradient(to top right, #8989e9, #c4c4e0, #ffffff)
+}
+
+.txt {
+    padding: 20px;
+    text-align: right;
+    
+}
+
+.txt header{
+    font-family: 'poppins';
+}
+
+.txt p{
+    font-family: 'caveat';
+    font-size: 22px;
+    color: rgb(0, 162, 255);
+}
+
+.container{
+    display: inline-block;
+    text-align: center;
+
+}
+
+
+.txt input[type="submit"]{
+    width: 35%;
+    margin: 10px;
+    background-color: rgb(0, 162, 255);
+    padding: 3px;
+    color: aliceblue;
+    border-radius: 10px;
+}
